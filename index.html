@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Arcana by HTML5 UP</title>
+		<title>Lista B - Concelho Geral UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,32 +21,20 @@
 				<div id="header">
 
 					<!-- Logo -->
-						<h1><a href="index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+						<img src="images/logob.jpg" height="5%" width="5%" alt="" />
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam sed tempus</a></li>
-										<li>
-											<a href="#">Submenu</a>
-											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Phasellus magna</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li class="current"><a href="index.html">Lista B</a></li>
+								<li><a id="candidatos">Candidatos</a></li>
+								<script>
+									$("#candidatos").click(function() {
+									    $('html,body').animate({
+									        scrollTop: $(".cand").offset().top},
+									        'slow');
+									});
+								</script>
 								<li><a href="right-sidebar.html">Right Sidebar</a></li>
 								<li><a href="two-sidebar.html">Two Sidebar</a></li>
 								<li><a href="no-sidebar.html">No Sidebar</a></li>
@@ -57,14 +45,10 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<header>
-						<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-						<a href="#" class="button">Learn More</a>
-					</header>
 				</section>
 
 			<!-- Highlights -->
-				<section class="wrapper style1">
+				<section class="wrapper style1 cand">
 					<div class="container">
 						<div class="row 200%">
 							<section class="4u 12u(narrower)">
@@ -107,22 +91,18 @@
 					<div class="container">
 						<div class="row">
 							<section class="6u 12u(narrower)">
-								<div class="box post">
 									<a href="#" class="image left"><img src="images/1efect.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The First Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
-								</div>
 							</section>
 							<section class="6u 12u(narrower)">
-								<div class="box post">
 									<a href="#" class="image left"><img src="images/2efect.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The Second Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
-								</div>
 							</section>
 						</div>
 						<div class="row">
@@ -130,7 +110,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/3efect.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The Third Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>
@@ -139,7 +119,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/4efect.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The Fourth Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>
@@ -150,7 +130,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/1sup.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The First Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>
@@ -159,7 +139,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/2sup.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The Second Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>
@@ -170,7 +150,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/3sup.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The Third Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>
@@ -179,7 +159,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/4sup.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The Fourth Thing</h3>
+										<h3><a href="#">The First Thing</a></h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>
