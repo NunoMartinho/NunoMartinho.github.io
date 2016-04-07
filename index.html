@@ -28,13 +28,6 @@
 							<ul>
 								<li class="current"><a href="index.html">Lista B</a></li>
 								<li><a id="candidatos">Candidatos</a></li>
-								<script>
-								$("#candidatos").click(function() {
-								    $('html,body').animate({
-								        scrollTop: $(".cands").offset().top},
-								        'slow');
-								});
-								</script> 
 								<li><a href="programa.html">Programa</a></li>
 							</ul>
 						</nav>
@@ -85,8 +78,8 @@
 				</section>
 
 			<!-- Posts -->
-				<section class="wrapper style1 cands">
-					<div class="container">
+				<section class="wrapper style1 ">
+					<div class="container cands">
 						<div class="row">
 							<section class="6u 12u(narrower)">
 									<a href="josepedronunes.html" class="image left"><img src="images/1efect.jpg" alt="" /></a>
@@ -189,6 +182,13 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+								$("#candidatos").click(function() {
+								    $('html,body').animate({
+								        scrollTop: $(".cands").offset().top},
+								        'slow');
+								});
+								</script> 
 
 	</body>
 </html>
